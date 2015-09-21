@@ -1,0 +1,30 @@
+Source: libhtml-shakan-perl
+Section: perl
+Priority: optional
+Maintainer: Jani Hakala <jjhakala@gmail.com>
+Build-Depends: debhelper (>= 9),
+ perl
+Build-Depends-Indep: libemail-valid-loose-perl (>= 0.05),
+ libformvalidator-lite-perl (>= 0.24),
+ libhash-multivalue-perl,
+ libhtml-escape-perl,
+ liblist-moreutils-perl (>= 0.22),
+ libmouse-perl (>= 0.9),
+ libtest-requires-perl (>= 0.06)
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/HTML-Shakan
+
+Package: libhtml-shakan-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libemail-valid-loose-perl (>= 0.05),
+ libformvalidator-lite-perl (>= 0.24),
+ libhash-multivalue-perl,
+ libhtml-escape-perl,
+ liblist-moreutils-perl (>= 0.22),
+ libmouse-perl (>= 0.9),
+ perl (>= 5.19.4)
+Description: Form HTML generator/validator
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
